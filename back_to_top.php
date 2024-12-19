@@ -1,0 +1,1 @@
+<div class="back_to_top"><i class="fas fa-caret-square-up <?php echo $ThemeTextColor; ?>"></i></div>
