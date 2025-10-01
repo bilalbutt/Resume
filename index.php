@@ -54,6 +54,7 @@ include_once( "functions.php" );
 		</div>
 		<!-- Right Column -->
 		<div class="w3-twothird">
+
 			<div class="w3-container w3-card-2 w3-white w3-margin-bottom main_cnt">
 				<?php include_once("profile.php"); ?>
 			</div>
@@ -63,9 +64,14 @@ include_once( "functions.php" );
 			<div class="w3-container w3-card-2 w3-white w3-margin-bottom main_cnt total_work <?php echo SLIDE_IN_RIGHT; ?>">
 				<?php include_once("total_work.php"); ?>
 			</div>
-			<div class="w3-container w3-card-2 w3-white main_cnt my_education <?php echo SLIDE_IN_RIGHT; ?>">
+			<div class="w3-container w3-card-2 w3-white main_cnt my_education w3-margin-bottom main_cnt <?php echo SLIDE_IN_RIGHT; ?>">
 				<?php include_once("education.php"); ?>
 			</div>
+
+			<div class="w3-container w3-card-2 w3-white main_cnt my_certificates main_cnt<?php echo SLIDE_IN_RIGHT; ?>">
+				<?php include_once("certificates.php"); ?>
+			</div>
+			
 			<!-- End Right Column --> 
 		</div>
 	</div>

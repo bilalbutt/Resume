@@ -17,8 +17,8 @@ define ( 'SHOW_SOCIAL_MEDIA', '1' );
 $SocialIcons = array();
 $SocialIcons[] = 'https://www.facebook.com/GegaByte.org|<i class="' . $ThemeTextColor . ' fab fa-facebook-square"></i>|Facebook';
 $SocialIcons[] = 'https://www.twitter.com/GegaByte_org|<i class="' . $ThemeTextColor . ' fab fa-twitter-square"></i>|Twitter';
-$SocialIcons[] = 'https://www.linkedin.com/in/bilalkabeerbutt|<i class="' . $ThemeTextColor . ' fab fa-linkedin"></i>|Linkedin';
-$SocialIcons[] = 'https://www.GegaByte.org|<i class="' . $ThemeTextColor . ' fas fa-globe"></i>|GegaByte.Org';
+$SocialIcons[] = 'https://github.com/bilalbutt|<i class="' . $ThemeTextColor . ' fa-brands fa-github"></i>|GitHub';
+$SocialIcons[] = 'https://www.GegaByte.org|<i class="' . $ThemeTextColor . ' fa-solid fa-link"></i>|GegaByte.Org';
 
 // SUMMARY
 $Summary = array();
@@ -31,8 +31,8 @@ $Profile[] = 'I am a curious, talented and team-oriented, senior Back-end develo
 // LANGUAGE
 // LANGUAGE|PERCENTAGE TO SHOW
 $Language = array();
-$Language[] = 'English|90';
+$Language[] = 'English|84';
 $Language[] = 'Urdu|100';
 $Language[] = 'Punjabi|66';
-
+$Language[] = 'Hindi|25';
 ?>

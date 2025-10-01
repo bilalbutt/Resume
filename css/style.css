@@ -88,10 +88,10 @@ img {
 }
 @keyframes animate_img {
 	from {
-		border-radius: 100%;
+		box-shadow: 0px 0px 0px 0px;
 	}
 	to {
-		border-radius: 0%;
+		box-shadow: 0px 0px 10px 10px;
 	}
 }
 svg:not(:root) {
@@ -1364,7 +1364,7 @@ hr.last_hr{
 }
 .work_cnt .work_icon, .work_cnt .work_title{
     display: inline-block;
-    font-size: 20px;
+    font-size: 22px;
 }
 .work_cnt .work_icon{
 	width: auto;

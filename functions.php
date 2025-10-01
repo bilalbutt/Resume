@@ -136,12 +136,40 @@ function ShowEducation( $ThemeColor, $InstitutionName, $DegreeYear, $Degree, $An
 	$Edu .= '<div class="' . $AnimationClass . '">';
 	$Edu .= '	<div class="w3-container">';
 	$Edu .= '		<h4 class="w3-opacity"><b>' . $InstitutionName . '</b></h4>';
-	$Edu .= '		<h5 class="' . $ThemeColor . '"><i class="fas fa-school fa-2x w3-margin-right"></i>' . $DegreeYear . '</h6>';
+	//<i class="fa-regular fa-building"></i>
+	$Edu .= '		<h5 class="' . $ThemeColor . '"><i class="fa-regular fa-building fa-2x w3-margin-right"></i>' . $DegreeYear . '</h5>';
 	$Edu .= '		<p>' . $Degree . '</p>';
 	$Edu .= '	</div>';
 	$Edu .= '</div>';
 	$Edu .= '<hr>';
 	echo $Edu;
+}
+
+// CERTIFICATES NAME|INSTITUTION NAME|YEAR|CREDS|ONLINE VERIFY LINK
+function ShowCertificates( $ThemeColor, $CertificateName, $InstitutionName, $CertYear, $Creds, $VeriLnk, $AnimationClass = '' ) {
+	$MyCerts = '';
+	$MyCerts .= '<div class="' . $AnimationClass . '">';
+	$MyCerts .= '	<div class="w3-container">';
+	$MyCerts .= '		<h4 class="w3-opacity"><b>' . $InstitutionName . '</b></h4>';
+	$MyCerts .= '		<h3 style="margin: 0px;" class="' . $ThemeColor . '"><i class="fa-solid fa-award fa-2x w3-margin-right" style="font-size: 32px;"></i><b style="position: relative; top: -7px;font-size: 20px;">' . $CertificateName . '</b></h3>';
+	$MyCerts .= '		<p style="margin: 0px 0px 0px 40px;">';
+	
+	if ( $CertYear != "" ){
+		$MyCerts .= $CertYear . "<br />";
+	}
+
+	if ( $Creds != "" ){
+		$MyCerts .= $Creds . '<br />';
+	}
+
+	if ( $VeriLnk != "" ){
+		$MyCerts .= '		<a class="' . $ThemeColor . '" href="' . $VeriLnk . '" target="_blank"><b>Verify</b></a></p>';
+	}
+
+	$MyCerts .= '	</div>';
+	$MyCerts .= '</div>';
+	$MyCerts .= '<hr>';
+	echo $MyCerts;
 }
 
 function ShowWork( $ThemeColor, $JobTitle, $CompanyName, $StartDate, $EndDate, $JobDescription, $AnimationClass = '', $JobType = 'Full') {
@@ -152,7 +180,7 @@ function ShowWork( $ThemeColor, $JobTitle, $CompanyName, $StartDate, $EndDate, $
 	$Work = '';
 	$Work .= '<div class="job_detail ' . $AnimationClass . '">';
 	$Work .= '	<div class="w3-container work_detail">';
-	$Work .= '		<h3><i class="' . $ThemeColor . ' fas fa-laptop-house"></i>&nbsp;<span class="w3-opacity">' . $JobTitle . ' / ' . $CompanyName . '</span></h3>';
+	$Work .= '		<h3><i class="' . $ThemeColor . ' fa-solid fa-laptop-code"></i>&nbsp;<span class="w3-opacity">' . $JobTitle . ' / ' . $CompanyName . '</span></h3>';
 
 	$Sdate = date_create( $StartDate );
 	$StDate = date_format( $Sdate, "jS, M, Y" );
@@ -190,10 +218,10 @@ function ShowUpIcon( $SmallHide, $ThemeTextColor, $class = 'more_info', $SingleS
 	$UpIcon = '';
 	if ( $class != '' ){
 		$CssClass = 'more_info ' . $class;
-		$IconCss = 'fa-chevron-circle-down';		
+		$IconCss = 'fa-solid fa-caret-up';		
 	}else{
 		$CssClass = 'more_info';
-		$IconCss = 'fa-chevron-circle-down';
+		$IconCss = 'fa-solid fa-caret-down';
 	}	
 	if ( $SmallHide == true ) {		
 		if ( $SingleSpace == true ){

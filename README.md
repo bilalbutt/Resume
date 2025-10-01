@@ -29,6 +29,7 @@ https://cv.gegabyte.org/
 - Work Experience section.
 - Calculated work experience section.
 - Education section.
+- Certificates section.
 - Animation on page load (Work in process).
 
 ## Feedback
