@@ -47,6 +47,8 @@ Add/Updated the following files content;
 -   `data/work_with.php` (has data for worked with section).
 -   `data/education.php` (has data for Education section).
 -   `data/job_details.php` (has data for Job Experiences section).
+-   `data/certificates.php` (has data for Certificates section).
+
 ## Roadmap
 
 - Add more sections.
