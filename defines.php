@@ -40,7 +40,7 @@ $LeftAnimation = $LeftAnimationArr[array_rand($LeftAnimationArr, 1)];
 define ( 'SHOW_FOOTER', '1' );
 
 // SET 1 TO ADD DESIGNATION SECTION
-define( 'SHOW_DESIGNATION', '0');
+define( 'SHOW_DESIGNATION', '1');
 
 // SET 1 TO ADD PDF DOWNLOAD SECTION
 define( 'SHOW_PDF', '0');
