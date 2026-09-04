@@ -27,8 +27,8 @@ $Work[1]['JobDescription'][1] = 'Maintenance / repair / upgrading of computer la
 //////////////////////////////////////////////////////////////
 $Work[2]['JobField'] = 'Teaching';
 $Work[2]['JobType'] = 'Full';
-$Work[2]['JobTitle'] = 'The AutoCAD College';
-$Work[2]['CompanyName'] = 'Computer Instructor';
+$Work[2]['JobTitle'] = 'Computer Instructor';
+$Work[2]['CompanyName'] = 'The AutoCAD College';
 $Work[2]['StartDate'] = '2005-01-01';
 $Work[2]['EndDate'] = '2005-08-01';
 $Work[2]['JobDescription'][0] = 'Teaching of computer courses.';
@@ -45,8 +45,8 @@ $Work[3]['JobDescription'][1] = 'Maintenance / repair / upgrading of computer la
 //////////////////////////////////////////////////////////////
 $Work[4]['JobField'] = 'Hardware';
 $Work[4]['JobType'] = 'Full';
-$Work[4]['JobTitle'] = 'Alma Mater La Rose';
-$Work[4]['CompanyName'] = 'Tech Support Specialist';
+$Work[4]['JobTitle'] = 'Tech Support Specialist';
+$Work[4]['CompanyName'] = 'Alma Mater La Rose';
 $Work[4]['StartDate'] = '2005-12-01';
 $Work[4]['EndDate'] = '2007-12-01';
 $Work[4]['JobDescription'][0] = 'Network trouble shooting and maintenance.';
@@ -83,8 +83,8 @@ $Work[7]['JobDescription'][1] = 'Perform duties in anywhere in Pakistan and / or
 //////////////////////////////////////////////////////////////
 $Work[8]['JobField'] = 'IT';
 $Work[8]['JobType'] = 'Full';
-$Work[8]['JobTitle'] = 'Xyon Pvt. Ltd.';
-$Work[8]['CompanyName'] = 'Web Programmer PHP';
+$Work[8]['JobTitle'] = 'Web Programmer PHP';
+$Work[8]['CompanyName'] = 'Xyon Pvt. Ltd.';
 $Work[8]['StartDate'] = '2010-11-01';
 $Work[8]['EndDate'] = '2011-03-01';
 $Work[8]['JobDescription'][0] = 'Development of websites and web applications using latest technologies (PHP / XHTML / JQuery / JavaScript) techniques, tools and development studio.';
@@ -93,8 +93,8 @@ $Work[8]['JobDescription'][2] = 'Develop latest standards in PHP/Web development
 //////////////////////////////////////////////////////////////
 $Work[9]['JobField'] = 'IT';
 $Work[9]['JobType'] = 'Full';
-$Work[9]['JobTitle'] = 'Emergent Software Solutions';
-$Work[9]['CompanyName'] = 'Web Programmer PHP';
+$Work[9]['JobTitle'] = 'Web Programmer PHP';
+$Work[9]['CompanyName'] = 'Emergent Software Solutions';
 $Work[9]['StartDate'] = '2011-04-01';
 $Work[9]['EndDate'] = '2011-7-01';
 $Work[9]['JobDescription'][0] = 'Development of websites and web applications using latest technologies (PHP / XHTML / JQuery / JavaScript) techniques, tools and development studio.';
@@ -103,8 +103,8 @@ $Work[9]['JobDescription'][2] = 'Develop latest standards in PHP/Web development
 //////////////////////////////////////////////////////////////
 $Work[10]['JobField'] = 'IT';
 $Work[10]['JobType'] = 'Full';
-$Work[10]['JobTitle'] = 'Sanaisoft Solutions';
-$Work[10]['CompanyName'] = 'Web Developer';
+$Work[10]['JobTitle'] = 'Web Developer';
+$Work[10]['CompanyName'] = 'Sanaisoft Solutions';
 $Work[10]['StartDate'] = '2011-07-01';
 $Work[10]['EndDate'] = '2011-11-01';
 $Work[10]['JobDescription'][0] = 'Development of websites and web applications using latest technologies (PHP / XHTML / JQuery / JavaScript) techniques, tools and development studio.';
@@ -113,8 +113,8 @@ $Work[10]['JobDescription'][2] = 'Develop latest standards in PHP/Web developmen
 //////////////////////////////////////////////////////////////
 $Work[11]['JobField'] = 'IT';
 $Work[11]['JobType'] = 'Full';
-$Work[11]['JobTitle'] = 'OMR Tech';
-$Work[11]['CompanyName'] = 'Web Developer';
+$Work[11]['JobTitle'] = 'Web Developer';
+$Work[11]['CompanyName'] = 'OMR Tech';
 $Work[11]['StartDate'] = '2011-11-01';
 $Work[11]['EndDate'] = '2011-12-01';
 $Work[11]['JobDescription'][0] = 'Development of websites and web applications using latest technologies (PHP / XHTML / JQuery / JavaScript) techniques, tools and development studio.';
