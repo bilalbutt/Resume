@@ -10,7 +10,7 @@
 		<p><i class="fas fa-briefcase fa-2x w3-margin-right w3-large1 <?php echo $ThemeTextColor; ?>"></i><?php echo DESIGNATION; ?></p>
 	<?php } ?>
 	<p><i class="fa-solid fa-house-chimney-user fa-2x w3-margin-right w3-large1 <?php echo $ThemeTextColor; ?>"></i><?php echo CITY; ?></p>
-	<p><i class="fa-solid fa-square-envelope fa-2x w3-margin-right w3-large1 <?php echo $ThemeTextColor; ?>"></i><?php echo EMAIL; ?></p>
+	<p><i class="fa-solid fa-square-envelope fa-2x w3-margin-right w3-large1 <?php echo $ThemeTextColor; ?>"></i><?php echo EMAIL_LINK; ?></p>
 	<p><i class="fa-solid fa-mobile-screen fa-2x w3-margin-right w3-large1 <?php echo $ThemeTextColor; ?>"></i><?php echo MOBILE; ?></p>
 
 	<?php if( SHOW_PDF == 1 ){ ?>

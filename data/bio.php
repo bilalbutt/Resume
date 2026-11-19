@@ -5,7 +5,10 @@ $ExpArr = array();
 define('NAME', 'Bilal Kabeer Butt');
 define('DESIGNATION', 'eCom & Ecwid Developer');
 define('CITY', 'Islamabad, Pakistan');
+
 define('EMAIL', 'bilalbutt@gmail.com');
+define('EMAIL_LINK', '<a target="_blank" href="mailto:' . EMAIL . '?subject=Viewed%20your%20Resume!">' . EMAIL . '</a>');
+
 define('MOBILE', '<a href="tel:+92-346-5386612">+92-346-5386612</a>');
 define('DOWNLOAD_TEXT', 'Download My Resume');
 define('RESUME_FILE', 'resume.pdf');

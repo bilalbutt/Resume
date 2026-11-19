@@ -26,15 +26,6 @@ define( 'CAL_ICON', ' fa-regular fa-calendar fa-2x' );
 //<i class="fa-regular fa-hourglass"></i>
 define( 'CAL_ICON2', 'fa-regular fa-hourglass' );
 
-// ANIMATION EFFECTS
-$RightAnimationArr = array( "fadeInLeftBig", "fadeInTopLeft", "fadeInBottomLeft", "slideInLeft" );
-$LeftAnimationArr = array( "fadeInRightBig", "fadeInTopRight", "fadeInBottomRight", "slideInRight" );
-
-$RightAnimation = $RightAnimationArr[array_rand($RightAnimationArr, 1)];
-$LeftAnimation = $LeftAnimationArr[array_rand($LeftAnimationArr, 1)];
-
-//echo "RIGHT: " . $RightAnimation . BR . "LEFT: " . $LeftAnimation . BR;
-
 // SET 1 TO SHOW FOOTER
 define ( 'SHOW_FOOTER', '1' );
 
@@ -44,8 +35,19 @@ define( 'SHOW_DESIGNATION', '1');
 // SET 1 TO ADD PDF DOWNLOAD SECTION
 define( 'SHOW_PDF', '1');
 
+// ANIMATION EFFECTS
+//$RightAnimationArr = array( "fadeInLeftBig", "fadeInTopLeft", "fadeInBottomLeft", "slideInLeft" );
+//$LeftAnimationArr = array( "fadeInRightBig", "fadeInTopRight", "fadeInBottomRight", "slideInRight" );
+
+$RightAnimationArr = array( "slideInRight", "backInRight" );
+$LeftAnimationArr = array( "slideInLeft", "backInLeft" );
+
+$RightAnimation = $RightAnimationArr[array_rand($RightAnimationArr, 1)];
+$LeftAnimation = $LeftAnimationArr[array_rand($LeftAnimationArr, 1)];
+//echo "RIGHT: " . $RightAnimation . BR . "LEFT: " . $LeftAnimation . BR;
+
 // SET 1 TO ADD ANIMATION TO SECTIONS
-define( 'ANIMATION', 0);
+define( 'ANIMATION', 1);
 if ( ANIMATION == 1 ){
 	define ( 'SLIDE_IN_LEFT' ,  'wow ' . $LeftAnimation );
 	define ( 'SLIDE_IN_RIGHT' , 'wow ' . $RightAnimation );
