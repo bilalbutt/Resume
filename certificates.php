@@ -12,6 +12,8 @@ for ( $a = 0; $a <= (count($Certificates) - 1); $a++){
 	}
 	echo $Animation . "";
 
+	//"Mobile Game and App Development|Virtual University of Pakistan|August 2026|<b>Credential ID</b> 3PJHA7GMK|" . $VeriFyLink;
+
 	ShowCertificates( $ThemeTextColor, $Details[0], $Details[1], $Details[2], $Details[3], $Details[4], $Animation = '' );
 }
 ?>

@@ -1,27 +1,23 @@
-<?php
+<?php 
 include_once( "defines.php" );
-include_once( "functions.php" );
-?>
+include_once( "functions.php" ); ?>
+
 <!DOCTYPE html>
 <head>
 <title>My Resume</title>
 <meta charset="UTF-8">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel='stylesheet' href='css/style.css'>
+<link rel='stylesheet' href='css/custom.css'>
+<link rel='stylesheet' href='css/media.css'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+
 <?php if ( ANIMATION == 1 ){?>
 	<link rel="stylesheet" href="css/animate.css">
 <?php } ?>
-<style>
-	.main_cnt, .work_detail {
-		transition: all 0.8s;
-		overflow: hidden;
-	}
-	.more_info, .more_info_bio, .work_details {
-		cursor: pointer;
-		transform: rotate(180deg);
-	}
-</style>
+
 </head>
 <body class="<?php echo $ThemeBg;?>">
 <!-- Page Container -->
@@ -77,7 +73,9 @@ include_once( "functions.php" );
 	</div>
 </div>
 <?php include_once("footer.php"); ?>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <?php if ( ANIMATION == 1 ){?>
 	<script src="js/wow.js"></script>
 	<script type="text/javascript">
@@ -86,7 +84,9 @@ include_once( "functions.php" );
 		});
 	</script>
 <?php } ?>
+
 <script src="js/functions.js"></script>
 <script src="https://kit.fontawesome.com/b76604fae0.js"></script>
+
 </body>
 </html>

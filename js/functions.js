@@ -90,6 +90,24 @@ $( document ).ready(function() {
         }
 		
 	});
+
+	function getClassBackgroundColor(className) {
+		let el = document.createElement('div');
+		el.className = className;
+		el.style.position = 'absolute';
+		el.style.visibility = 'hidden';
+		document.body.appendChild(el);
+		let color = getComputedStyle(el).backgroundColor;
+		el.remove();
+		return color;
+	}
+
+	var ProfileImage = $("#main-img");
+	let bgColor = getClassBackgroundColor(ProfileImage.attr("data-class"));
+	ProfileImage.css("box-shadow", "0px 0px 20px 10px " + bgColor);
+
+	//$(".w3-twothird .w3-container.w3-card-2").css("box-shadow", "0px 0px 20px 10px " + bgColor);
+	//console.log("BG COLOR;" + bgColor);
 	
 });
 

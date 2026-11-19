@@ -1,0 +1,149 @@
+.w3-third .w3-white.w3-text-grey.w3-card-4, 
+.w3-container{
+    border-radius: 10px;
+}
+footer.w3-container{
+    border-radius: unset;
+}
+.full_name {
+	background-color: rgba(255, 255, 255, 0.9);
+	/* width: 100%; */
+	bottom: 0px !important;
+	width: calc(100% + 32px);
+	left: -16px;
+}
+.anim_prg{
+	width: 0px;
+}
+
+.top_cont img{
+    /* box-shadow: 0px 0px 10px 10px;
+    border-radius: 0%; */
+    width: 90% !important;
+    margin: 20px;
+	border-radius: 12px;
+	/* animation: animate_img 2s 1 forwards; */
+}
+@keyframes animate_img {
+	from {
+		box-shadow: 0px 0px 0px 0px;
+	}
+	to {
+		box-shadow: 0px 0px 10px 10px;
+	}
+}
+
+/* OVER WITE */
+.w3-padding-none{
+    padding: 0px 8px !important;
+}
+.w3-container.bio_cnt {
+	/* height: 315px; */
+	transition: all 0.8s;
+    overflow: hidden;
+}
+
+hr.thin_hr {
+	margin: 0px;
+}
+hr.last_hr{
+    margin-bottom: 10px;
+}
+
+.work_detail h6 p{
+	margin: 0px;
+	padding: 0px;
+}
+.work_detail h3{
+	text-align: justify;
+	display: flex;
+	align-items: baseline;
+}
+.work_detail h6{
+	text-align: justify;
+	display: flex;
+	align-items: center;
+}
+
+.work_with, .social_icon{
+	list-style: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+}
+.social_icon{
+	text-align: center;
+	padding: 0px;
+}
+.social_icon .si_cnt{
+	display: inline-block;
+	padding: 0px 5px;
+}
+.work_cnt{
+	display: block;
+    padding: 6px 0px;
+}
+.work_cnt .work_icon, .work_cnt .work_title{
+    display: inline-block;
+    font-size: 22px;
+}
+.work_cnt .work_icon{
+	width: auto;
+	padding: 0px 10px 0px 0px;
+}
+.work_cnt .work_title{
+    width: auto;
+}
+
+.social_icon li{
+	display: inline-block;
+	padding: 0px 10px;
+}
+.social_icon li a, .social_icon .si_cnt a{
+	font-size: 30px;
+}
+.work_with li, .work_with li p, .work_with li i{
+	font-size: 20px;
+	cursor: pointer;
+}
+.work_with p{
+	font-size: 20px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+.back_to_top{
+	position: fixed;
+	font-size: 46px;
+	bottom: 20px;
+	right: 0px;
+	margin-right: 20px;
+	cursor: pointer;
+	transition: all 0.8s;
+	z-index: 1000;
+	opacity: 1;
+  	visibility: visible;
+	background: #fff;
+    height: 39px;
+    line-height: 45px;
+    border-radius: 10px;
+    width: 38px;
+}
+.back_to_top i{
+    top: -3px;
+    position: relative;
+    left: -1px;
+}
+.back_to_top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.main_cnt, .work_detail {
+	transition: all 0.8s;
+	overflow: hidden;
+}
+.more_info, .more_info_bio, .work_details {
+	cursor: pointer;
+	transform: rotate(180deg);
+}

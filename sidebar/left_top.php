@@ -1,5 +1,5 @@
 <div class="top_cont">
-	<img class="img animate__animated animate__zoomIn" src="images/<?php echo $Img; ?>" style="width:100%" alt="Bilal Kabeer Butt" />
+	<img id="main-img" data-class="<?php echo $ThemeColor; ?>" class="img animate__animated animate__zoomIn" src="images/<?php echo $Img; ?>" style="width: 100%" alt="<?php echo NAME; ?>" />
 </div>
 <div class="w3-container bio_cnt <?php echo SLIDE_IN_LEFT; ?>">
 	<div class="w3-display-bottomleft w3-container <?php echo $ThemeTextColor; ?> full_name">
@@ -14,7 +14,7 @@
 	<p><i class="fa-solid fa-mobile-screen fa-2x w3-margin-right w3-large1 <?php echo $ThemeTextColor; ?>"></i><?php echo MOBILE; ?></p>
 
 	<?php if( SHOW_PDF == 1 ){ ?>
-		<p><i class="far fa-file-pdf fa-2x w3-margin-right w3-large1 <?php echo $ThemeTextColor; ?>"></i><a href="my-cv-web.pdf"><?php echo DOWNLOAD_TEXT; ?></a></p>
+		<p><i class="far fa-file-pdf fa-2x w3-margin-right w3-large1 <?php echo $ThemeTextColor; ?>"></i><a href="<?php echo RESUME_FILE; ?>"><?php echo DOWNLOAD_TEXT; ?></a></p>
 	<?php } ?>
 	
 </div>

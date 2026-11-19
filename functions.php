@@ -159,10 +159,10 @@ function ShowCertificates( $ThemeColor, $CertificateName, $InstitutionName, $Cer
 	}
 
 	if ( $Creds != "" ){
-		$MyCerts .= $Creds . '<br />';
+		$MyCerts .= "<b>Credential ID</b> " . $Creds . '<br />';
 	}
 
-	if ( $VeriLnk != "" ){
+	if ( $VeriLnk != "" && $Creds != "" ){
 		$MyCerts .= '		<a class="' . $ThemeColor . '" href="' . $VeriLnk . '" target="_blank"><b>Verify</b></a></p>';
 	}
 
@@ -243,5 +243,19 @@ function AddAnimation(){
 
 function PrintR($arr){
     echo "<pre>"; print_r($arr); echo "</pre>";
+}
+
+function ShowSocialIcons(){
+	$SocialLinks = '';
+
+	$SocialLinks = '<ul class="social_icon">';
+	for ( $a = 0; $a <= (count($SocialIcons) - 1); $a++){
+		$Details = explode("|", $SocialIcons[$a]);
+		$sicon = str_replace($ThemeTextColor, "", trim($Details[1])) ;
+		$SocialLinks .= '<li><a target="_blank" href="' . trim($Details[0]) . '" title="' . trim($Details[2]) . '">' . $sicon . '</a></li>';
+	}
+	$SocialLinks .= '</ul>';
+
+	return $SocialLinks;
 }
 ?>

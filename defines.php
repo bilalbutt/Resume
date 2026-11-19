@@ -1,5 +1,4 @@
 <?php
-
 define("BR", "<br />");
 
 $ThemeColorArr = array("w3-amber", "w3-blue", "w3-light-blue", "w3-brown", "w3-cyan", "w3-blue-grey", "w3-green", "w3-light-green", "w3-indigo", "w3-lime", "w3-orange", "w3-deep-orange", "w3-purple", "w3-deep-purple", "w3-red", "w3-teal", "w3-black", "w3-grey", "w3-dark-grey");
@@ -43,7 +42,7 @@ define ( 'SHOW_FOOTER', '1' );
 define( 'SHOW_DESIGNATION', '1');
 
 // SET 1 TO ADD PDF DOWNLOAD SECTION
-define( 'SHOW_PDF', '0');
+define( 'SHOW_PDF', '1');
 
 // SET 1 TO ADD ANIMATION TO SECTIONS
 define( 'ANIMATION', 0);

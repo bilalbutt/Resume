@@ -1,0 +1,230 @@
+@media (max-width: 1024px){
+	.full_name span.w3-hide-small{
+		display: none !important;
+		visibility: hidden !important;
+	}
+	.full_name .fa-chevron-circle-down{
+		margin: 0px 0px 0px 3px !important;
+	}
+	
+	.summary p{
+		text-align: justify;
+	}
+}
+@media (max-width: 786px){
+	.full_name{
+		bottom: 53px;
+		padding: 0px 0px 0px 16px;
+	}
+	.full_name h2{
+		font-size: 25px !important;
+		margin-left: 10px;
+	}
+	.full_name .fa-id-badge,
+	.full_name span.w3-hide-small,
+	.summary .fa-address-card,
+	.summary span.w3-hide-medium,
+	.myskills .fa-puzzle-piece,
+	.lang_speak .fa-language,
+	.lang_speak .w3-hide-medium,
+	.lang_speak .w3-hide-small{
+		display: none !important;
+		visibility: hidden !important;
+	}
+	.full_name .fas.fa-chevron-circle-down{
+		font-size: 25px !important;
+		margin: 0px 0px 0px 6px !important;
+		padding: 0px !important;
+	}
+	.full_name .more_info_bio{
+		margin-left: 10px;
+	}
+	.lang_speak .lang .fa-chevron-circle-down{
+		margin: 0px 0px 0px 10px !important
+	}
+	.w3-container .w3-container{
+		padding: 0px !important;
+	}
+    .education .fa-chevron-circle-down,
+    .summary .fa-chevron-circle-down,
+    .lang .fa-chevron-circle-down{
+        margin: 0px !important;
+        margin-right: 0px !important;
+    }
+        
+    .lang .fas.fa-language,
+    .summary .far.fa-address-card{
+        margin-right: 5px !important;
+    }
+    .lang .fa-chevron-circle-down,
+    .summary .fa-chevron-circle-down{
+        margin-left: 2px !important;
+    }
+	
+	.bio_cnt p i.fa-file-pdf{
+		margin: 0px 12px 0px 0px !important
+	}
+	.work_detail h3{
+		text-align: justify;
+		display: flex;
+		align-items: baseline;
+	}
+	.work_detail h6{
+		text-align: justify;
+		display: flex;
+		align-items: center;
+	}
+	.work_detail h6 p{
+		margin: 0px;
+		padding: 0px;
+	}
+	.work_detail h6 .w3-tag.w3-round{
+		width: 55%;
+		display: inline;
+	}
+	.work_detail h6 p span{
+		/* display: block; */
+	}
+	.work_detail ul{
+		padding: 0px 20px 0px 20px;
+	}
+	.summary p{
+		text-align: justify;
+	}
+	
+	.w3-third{
+		width: 35%;
+	}
+	.w3-twothird{
+		width: 65%;
+	}
+	.top_cont img{
+		margin: 10px;
+	}
+}
+@media (max-width: 425px){
+	.work_detail{
+		padding: 0px 10px;
+	}
+    .work_detail ul{
+        padding: 0px 0px 0px 8px;
+    }
+	
+	.work_detail h3{
+		text-align: justify;
+		display: flex;
+		align-items: baseline;
+	}
+	.work_detail h6{
+		text-align: justify;
+		display: flex;
+		align-items: center;
+	}
+	.work_detail h6 p{
+		margin: 0px;
+		padding: 0px;
+	}
+	.work_detail h6 .w3-tag.w3-round{
+		width: 55%;
+		display: inline;
+	}
+	.work_detail h6 p span{
+		display: block;
+	}
+	.w3-third{
+		width: 100%;
+	}
+	.w3-twothird{
+		width: 100%;
+	}
+	.top_cont img{
+		margin: 20px;
+	}
+}
+@media (max-width: 375px){
+	.work_exp .fas.fa-briefcase{
+		margin-right: 7px !important;
+	}
+	.work_exp .fa-chevron-circle-down{
+		padding: 0px !important;
+		margin: 0px 0px 0px 0px !important;
+	}
+	.work_detail{
+		padding: 0px 10px;
+	}
+    .work_detail ul{
+        padding: 0px 0px 0px 8px;
+    }
+	.summary p{
+		text-align: justify;
+	}
+	.work_detail h3{
+		text-align: justify;
+		justify-content: center;
+		display: flex;
+		align-items: baseline;
+	}
+	.work_detail h6{
+		text-align: justify;
+		display: flex;
+		align-items: center;
+	}
+	.work_detail h6 p{
+		margin: 0px;
+		padding: 0px;
+	}
+	.work_detail h6 .w3-tag.w3-round{
+		width: 55%;
+		display: inline;
+	}
+	.work_detail h6 p span{
+		display: block;
+	}
+}
+@media (max-width: 320px){
+	.my_education .w3-container h4{
+		text-align: center;
+	}
+	.total_work h3.w3-padding-none{
+		padding: 0px 0px 0px 0px !important;
+		font-size: 22px;
+	}
+	.total_work h3.w3-padding-none i.fa-hourglass-half{
+		margin-right: 5px !important;
+	}
+	.summary p{
+		text-align: justify;
+	}
+	.work_detail{
+		padding: 0px 10px;
+	}
+    .work_detail ul{
+        padding: 0px 0px 0px 20px;
+    }
+	.lang_speak{
+		padding: 0px 10px;
+	}
+	.work_detail h3{
+		text-align: justify;
+		justify-content: center;
+		display: flex;
+		align-items: baseline;
+	}
+	.work_detail h6{
+		text-align: justify;
+		justify-content: center;
+		display: flex;
+		align-items: flex-start;
+	}
+	.work_detail h6 p{
+		margin: 0px;
+		padding: 0px;
+	}
+	.work_detail h6 .w3-tag.w3-round{
+		width: 55%;
+		display: inline;
+	}
+	.work_detail h6 p span{
+		display: block;
+	}
+}
